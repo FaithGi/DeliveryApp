@@ -86,9 +86,15 @@ ion-content{
   --ion-background-color:	#dfe6dd;
 }
 
-ion-toolbar{
-  --ion-background-color: rgb(226, 146, 42);
+ion-button{
+  --ion-background-color:	#e9a220;
 }
-ion-menu{
-  --ion-background-color:rgb(226,146,42)
+// ion-toolbar{
+//   --ion-background-color:	#e9a220;
+// }
+ion-back-button{
+  --ion-background-color:	#e9a220;
+}
+ion-toolbar{
+  --ion-background-color:	#e9a220;
 }

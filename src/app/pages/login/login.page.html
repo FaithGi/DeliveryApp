@@ -1,0 +1,67 @@
+
+<!-- <ion-header>
+	<ion-toolbar>
+	  <ion-title>
+		Login Form
+	  </ion-title>
+	</ion-toolbar>
+</ion-header> -->
+<ion-grid>
+<h2>Login</h2>
+<form action="/action_page.php" method="post">
+  
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+  <div padding>
+	<ion-button [routerLink] ="['/home']" size="large" href="/touchid" expand="block">Login</ion-button>
+</div>
+  <!-- <div class="container" style="background-color:#f1f1f1"> -->
+	<button type="button" class="cancelbtn">Cancel</button>
+	<ion-button [routerLink] ="['/forgot-password']" size="small" href="#" expand="block">Forgot Password</ion-button>
+ 
+  <!-- </div> -->
+</form>
+</ion-grid>
+
+
+			<!-- <div padding>
+				<ion-button [routerLink] ="['/home']" size="large" href="/touchid" expand="block">Login</ion-button>
+			</div> -->
+<!-- <ion-grid>
+	<ion-row justify-content-center>
+		<ion-col align-self-center size-md="6" >
+			<div text-center>
+				<h4>Login Form</h4>
+			</div>
+			<div padding>
+				<ion-item>
+					<ion-input type="text" placeholder="Username"></ion-input>
+				</ion-item>
+
+				<ion-item>
+					<ion-input type="password" placeholder="Password"></ion-input>
+				</ion-item>
+			</div>
+
+		
+			<div padding>
+				<ion-button [routerLink] ="['/home']" size="large" href="/touchid" expand="block">Login</ion-button>
+			</div>
+
+			
+		</ion-col>
+	</ion-row> 
+</ion-grid> -->
+
+
+
+

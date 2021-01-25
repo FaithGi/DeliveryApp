@@ -1,16 +1,16 @@
-import { CartService } from './../services/cart.service';
+import {  OnInit } from '@angular/core';
+import { Product, CartService } from './../../services/cart.service';
 import { Component, ViewChild, ElementRef } from '@angular/core';
 import { ModalController } from '@ionic/angular';
-import { CartModalPage } from '../pages/cart-modal/cart-modal.page';
+import { CartModalPage } from '../cart-modal/cart-modal.page';
 import { BehaviorSubject } from 'rxjs';
- import{BookService} from './../services/book.service'
- 
 @Component({
-  selector: 'app-home',
-  templateUrl: 'home.page.html',
-  styleUrls: ['home.page.scss']
+  selector: 'app-program',
+  templateUrl: './program.page.html',
+  styleUrls: ['./program.page.scss'],
 })
-export class HomePage {
+export class ProgramPage implements OnInit {
+
   cart = [];
   products = [];
   cartItemCount: BehaviorSubject<number>;
@@ -61,6 +61,5 @@ export class HomePage {
   }
 
 
- 
- 
+
 }
